@@ -1,0 +1,4 @@
+To run:
+python3 KNN.py
+
+This program predicts what rating a user would give a movie they haven’t seen by using K Nearest Neighbor (KNN) to perform collaborative filtering (CF). The first part achieves this through user-based CF (finding the K number of users who rated movies the most similarly). The second part uses leave-one-out cross validation to determine which value of K, between 1 and 5, results in the lowest error for user-based CF. The final part of the program utilizes item-based CF instead (finding the K number of movies that are the most similar). Each part of the program reports the mean squared error in movie ratings.
